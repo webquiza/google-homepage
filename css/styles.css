@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+/* Footer section */
+
+.footer {
+	border-top: solid 1px #8888883f;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+  left: 0;
+	background-color: #eeeeee;
+	color: #000000b6;
+}
+
+.footer-items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-items li {
+	float: left;
+}
+
+.footer-items li {
+	display: flex;
+	text-align: center;
+	padding: 14px 10px;
+	font-size: 13px;
+}
